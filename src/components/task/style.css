@@ -1,0 +1,31 @@
+.task-container {
+  padding: 1rem;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-300);
+  gap: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.task-description {
+  font: var(--font-text-md);
+  color: var(--gray-600);
+  width: 100%;
+  max-width: 39.75rem;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+  color: var(--gray-500);
+  padding: 0.25rem;
+}
+.delete-btn:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  border-radius: 4px;
+}
+
